@@ -2,7 +2,7 @@
   "name": "react-fundamentos",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://drprystupczuk.github.io",
+  "homepage": "https://drprystupczuk.github.io/200ok-daily/",
   "dependencies": {
     "-": "0.0.1",
     "@testing-library/jest-dom": "^5.11.10",
