@@ -6,7 +6,7 @@ export default function ListComponent(props) {
 
    return (
       <React.Fragment>
-         <h2>Participantes daily:</h2>
+         <h2>👋 Participantes daily:</h2>
          {
             (<ul class="customList"> {props.names && props.names.map((name, index) => 
             <li key={index}> 

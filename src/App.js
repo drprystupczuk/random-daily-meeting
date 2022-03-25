@@ -8,19 +8,19 @@ function App() {
   let [clicked, setClicked] = useState(false);
   let [names, setNames] = useState(
   [
-    ["Prystu", true],
-    ["Augusto", true],
-    ["Ariel", true],
-    ["Agus", true], 
-    ["Paula", true], 
-    ["Rodri", true], 
-    ["Stepan", true],
-    ["Cristian", true],
-    ["Fede", true],
-    ["Eze", true], 
-    ["Jose", true], 
-    ["Diego Farfan", true], 
-    ["German", true]
+    [" 💯 Prystu 😎",   true],
+    [" 🔙 Augusto", true],
+    [" 🔙 Ariel",   true],
+    [" 🔨 Agus",    true], 
+    [" 👁‍🗨 Paula",   true], 
+    [" 👁‍🗨 Ana",     true], 
+    [" 📱  Stepan",  true],
+    [" 👁‍🗨 Cristian",true],
+    [" 🔙 Fede", true],
+    [" 📱  Eze", true], 
+    [" 🎨 Jose", true], 
+    [" 👁‍🗨 Diego", true], 
+    [" 👁‍🗨 German", true]
   ]);
 
   let [sortedNames, setSortedNames] = useState(null);
