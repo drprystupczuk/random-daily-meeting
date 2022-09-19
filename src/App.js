@@ -13,6 +13,7 @@ function App() {
     [" 🔙 Augusto", true],
     [" 🔙 Ariel", true],
     [" 🔙 Fede", true],
+    [" 🔙 Fabi", true],
     [" 🔨 Agus",  true],
     [" 👁‍🗨 Nico",     true],
     [" 👁‍🗨 Cristian", true],
@@ -20,9 +21,13 @@ function App() {
     [" 📱  Stepan",  true],
     [" 📱  Eze", true],
     [" 📊 Lean", true],
+    [" 🔙 Gonza", true],
+    [" 📱  Rodri", false],
+    [" 🔨 Jochi",  false],
     [" 👁‍🗨 Diego", false], 
-    [" 👁‍🗨 Ana",     false], 
-    [" 👁‍🗨 Paula",   false], 
+    [" 👁‍🗨 Ana",     false],
+    [" 👁‍🗨 Ale",     false], 
+    [" 👁‍🗨 Pau",   false], 
     [" 🎨 Jose", false]
   ]);
 
