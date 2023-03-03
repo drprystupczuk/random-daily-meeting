@@ -9,26 +9,29 @@ function App() {
   let [names, setNames] = useState(
   [
     [" 💯 Prystu 😎", true],
+
     [" 🔙 Valen", true],
     [" 🔙 Augusto", true],
     [" 🔙 Ariel", true],
     [" 🔙 Fede", true],
     [" 🔙 Fabi", true],
-    [" 🔨 Agus",  true],
-    [" 👁‍🗨 Nico",     true],
+
+    [" 🔨 Agus", true],
+    [" 🔨 Mariano", true],
+
+    [" 👁‍🗨 Nico", true],
     [" 👁‍🗨 Cristian", true],
-    [" 👁‍🗨 German", true],
-    [" 📱  Stepan",  true],
+    [" 👁‍🗨 Daco", true],
+    
+    [" 📱  Stepan", true],
     [" 📱  Eze", true],
+    [" 📱  Gonza", true],
+
     [" 📊 Lean", true],
-    [" 🔙 Gonza", true],
-    [" 📱  Rodri", false],
-    [" 🔨 Jochi",  false],
-    [" 👁‍🗨 Diego", false], 
-    [" 👁‍🗨 Ana",     false],
-    [" 👁‍🗨 Ale",     false], 
-    [" 👁‍🗨 Pau",   false], 
-    [" 🎨 Jose", false]
+
+    // Not accepted meet
+
+    [" 👁‍🗨 Diego", false],
   ]);
 
   let [sortedNames, setSortedNames] = useState(null);
