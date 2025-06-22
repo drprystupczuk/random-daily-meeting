@@ -8,41 +8,14 @@ function App() {
   let [clicked, setClicked] = useState(false);
   let [names, setNames] = useState(
   [
-    [" 💯 Prystu 😎", true],
-
-    [" 🔙 Valen", true],
-    [" 🔙 Augusto", true],
-    [" 🔙 Ariel", true],
-    [" 🔙 Fede", true],
-    [" 🔙 Fabi", true],
-
-    [" 🔨 Agus", true],
-    [" 🔨 Mariano", true],
-
-    [" 👁‍🗨 Nico", true],
-    [" 👁‍🗨 Cristian", true],
-    [" 👁‍🗨 Daco", true],
-    
-    [" 📱  Stepan", true],
-    [" 📱  Eze", true],
-    [" 📱  Gonza", true],
-
-    [" 📊 Lean", true],
-
-    // Not accepted meet
-
-    [" 👁‍🗨 Diego", false],
+    [" 💯 Diego Prystupczuk 😎", true]
   ]);
 
   let [sortedNames, setSortedNames] = useState(null);
 
   const inputNames = useRef('');
 
-  const getBest = () => {
-    return names[0];
-  }
-
-  const handleOnChange = (position) => {
+  const handleOnChange = position => {
     if(position != null){
       const newNames = [...names];
       newNames[position] =  [names[position][0], !names[position][1]];
@@ -60,8 +33,6 @@ function App() {
   }
 
   const cmdShuffle = (selectedNames) => {
-
-    
     let currentIndex = selectedNames.length,  randomIndex;
 
     // While there remain elements to shuffle...
@@ -93,16 +64,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p> DAILY - Goalsetter </p>
-        <a
-          className="App-link"
-          href="https://goalsetter.co"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          200OK Team
-        </a>
-        {/* <h3>El mejor del equipo es:</h3> {getBest(names)} */}
+        <p> DAILY MEETING </p>
 
         { !clicked && <h3>Agregar participantes</h3>}
         
