@@ -8,7 +8,8 @@ function App() {
   let [clicked, setClicked] = useState(false);
   let [names, setNames] = useState(
   [
-    [" 💯 Diego Prystupczuk 😎", true]
+    [" 💯 Diego Prystupczuk 😎", true],
+    [" Compañero de vacaciones", false]
   ]);
 
   let [sortedNames, setSortedNames] = useState(null);
@@ -82,7 +83,7 @@ function App() {
 
         { !clicked && <ListComponent names={names} change={handleOnChange}></ListComponent> }
         
-        { (names.filter(name => name[1] == true).length < 2) && <span className='warning'>Debe seleccionar al menos dos participantes</span>}
+        { (names.filter(name => name[1] == true).length < 2) && <span className='warning'>* Debe seleccionar al menos dos participantes</span>}
         
         { !clicked && (<button disabled={names.filter(name => name[1] == true).length < 2} onClick={cmdSort}> Sortear</button>)}
         
